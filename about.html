@@ -21,25 +21,32 @@ header-img: "img/about-bg.jpg"
     每天早晨，无论刮风或下雨，你总能看见一位屹立在楼梯口的男人，你可能怀疑他是某个门卫——那你便大错特错了。他是我们伟大的王，王业奇。他之所以谦逊地站在此处，是为了每天检阅他的臣民。<br><br>王业即帝王之事业，谓统一天下，建立王朝。王业奇，即建立非常的、宏伟的帝国。由此可见我们的王从小便被父母寄予众望，而他也的确励精图治，创立了属于自己的王朝，吉吉国。<br><br>关于他是如何创立这个王朝的，我们暂且不谈，让我们来看看在他统治下欣欣向荣的吉吉国吧——那是一段值得记录的佳话。
 </div>
 
-<div class="日积月累">
+<div class="q post-container">
     1.  吉吉国王在某次住宿生大会上公开批判所谓“娘炮”，引起众人哄笑，属于是深受性别刻板印象荼毒了。当然这次事件也让我了解到大多数同学的思想也依然不怎么样。<br><br>2.    吉吉国王每次开大会在上面指点江山，一点点好心情都被他磨灭了。大家应该都记得的是他经典的迷惑言论“坐下要准备，等我喊口号”（准备大概就是说转半个身准备翻坐垫），“准备”，“坐下”，“坐的不整齐，起来”，“准备”，“坐下”，真尼玛铸币。<br><br>3.  好几次活动搞得我们吃饭延迟，然后假惺惺的说一句“啊我们食堂给你们留了饭啊不用担心有饭吃的”，一脸慈祥，然后赶过去全是凉的而且没多少了。每次听他这话我去年吃的奥利奥都要给我吐出来。<br><br>4. 典中典双标“要把学校当作家一样”“你以为学校是你家啊”。<br><br>5.  他说所有话都是一个语气，不知道为什么就是很欠揍。其实他走路也很欠揍。好吧其实他干什么都很欠揍，甚至他站在那里就很欠揍。<br><br>6.   一人独揽大权，4.3春游取消改成考试就他一句话“安排考试”，我在现场。<br><br>7.   每次批评人拿出手机里别人给他发的消息当证据，然而这些规矩还不都是他定的，搞得他正义凛然的样子。<br><br>8.   他在的地方，绝对没有好事情，什么讲话就怎么怎么样。走路的时候讲个话怎么了？你以为这是寂静岭？<br><br>9.    宿舍的B事。这个可以单独写一本书了，慢慢来。<br><br>（正在思考把这个板块优化一下，可以改到民间传说里）
 </div>
 
-<div class="名言警句">
+<div class="w post-container">
     “昨天跑操就你们**两个班讲话声音最多，给我小心点。”<br><br>“社会人回社会上去，不要来学校了。”（对应上文摄影师章节，就是那时候说的）<br><br>“我搞你一个人还不容易？去操场跑三圈。”（运动会时面对迟到同学）
 </div>
 
 <!-- Handle Language Change -->
 <script type="text/javascript">
     var $zh = document.querySelector(".zh");
-    var $en = document.querySelector(".en");
+    var $q = document.querySelector(".q");
+    var $en = document.querySelector(".w");
     function onLanChange(index){
         if(index == 0){
             $zh.style.display = "block";
-            $en.style.display = "none";
-        }else{
-            $en.style.display = "block";
+            $q.style.display = "none";
+            $w.style.display = "none";
+        }else if(index == 1){
+            $q.style.display = "block";
             $zh.style.display = "none";
+            $w.style.display = "none";
+        }else{
+            $w.style.display = "block";
+            $zh.style.display = "none";
+            $q.style.display = "none";
         }
     }
     onLanChange(0);
