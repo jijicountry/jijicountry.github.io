@@ -3,7 +3,7 @@ layout:     post
 title:      "旋臂中的观察"
 subtitle:   "——四·三零事件还原与分析"
 date:       2022-05-03
-author:     "甘某人"
+author:     "出版社"
 header-img: "img/post-bg-js-module.jpg"
 tags:
     - 王业奇
