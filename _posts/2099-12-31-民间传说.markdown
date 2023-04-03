@@ -1,8 +1,8 @@
 ---
 layout:     post
-title:      "[置顶]民间传说"
+title:      "【置顶】民间传说"
 subtitle:   "不知道放哪，就一直置顶吧"
-date:       2099-12-31
+date:       2050-09-09
 author:     "匿名"
 header-img: "img/民间传说.jpg"
 tags:
